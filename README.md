@@ -1,5 +1,6 @@
-
 # Apiary Blog
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2Fapiaryio.github.com.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2Fapiaryio.github.com?ref=badge_shield)
+
 
 ## What not to do
 
@@ -73,3 +74,7 @@ rake image_dir['Hello World']
 ## Stylesheet Development 
 
 The server directly references Apiary [website production stylesheet](https://github.com/apiaryio/apiary/blob/master/public/styles/modules/website.styl). In order to change this to `https://static.apiary.dev:9000` for development purposes, edit the `static` variable in `_config.yml`. Make sure not to commit this to Github. Also, make sure your CSS changes are deployed on Apiary before pushing blog changes to Github.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FHartmarken%2Fapiaryio.github.com.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FHartmarken%2Fapiaryio.github.com?ref=badge_large)
